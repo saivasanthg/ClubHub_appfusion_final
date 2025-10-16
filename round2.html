@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        /* Body background color */
+        body {
+            background-color: #FFA500; /* Orange background */
+            color: white; /* Text color */
+            font-family: Arial, sans-serif;
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+
+        /* Style for the menu button */
+        .menu-button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        /* Style for the dropdown content */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        /* Style for the dropdown links */
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        /* Style for the dropdown links on hover */
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Show the dropdown menu on hover */
+        .menu-button:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Style for the large text */
+        .large-text {
+            font-size: 36px;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menu Button with Dropdown Menu -->
+    <div class="menu-button">
+        Menu
+        <div class="dropdown-content">
+            <a href="about_clubs.html">About Clubs</a>
+            <a href="domains_and_clubs.html">Domains and Clubs</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <!-- Large Text -->
+    <div class="large-text">
+        SRM: The HUB OF CLUBS
+    </div>
+
+    <!-- Education-related Picture -->
+    <img class="education-picture" src="education.jpg" alt="Education Related Picture">
+
+    <!-- Buttons indicating 7 slides -->
+    <div>
+        <button class="slide-button">Slide 1</button>
+        <button class="slide-button">Slide 2</button>
+        <button class="slide-button">Slide 3</button>
+        <button class="slide-button">Slide 4</button>
+        <button class="slide-button">Slide 5</button>
+        <button class="slide-button">Slide 6</button>
+        <button class="slide-button">Slide 7</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 Your Website. All rights reserved.
+    </footer>
+</body>
+</html>
+
